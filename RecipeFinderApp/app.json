@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Recipe Finder",
+    "slug": "recipefinder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/recipeIcon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "recipefinder"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/recipeIcon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "versionCode": 1,
+      "package": "recipe.deploy.android"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
